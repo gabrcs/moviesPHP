@@ -1,0 +1,103 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: grid;
+    width: 95%;
+    margin-left: 35px;
+}
+
+.centerDiv{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    min-height: 700px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.movieDiv{
+    width: 27%;
+    margin: 50px 0px 0px 200px;
+    float: left;
+    background-color:transparent;
+}
+.movieDiv2{
+    width: 27%;
+    margin: 50px 200px 0px 0px;
+    float: right;
+    background-color: transparent;
+}
+
+header{
+    width: auto;
+    height: 80px;
+    text-shadow: 5px 5px 5px #000000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 223, 155, 0.9);
+}
+footer{
+    width: auto;
+    height: 50px;
+    text-shadow: 5px 5px 5px #000000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 223, 155, 0.9);
+}
+
+body{
+    background: url('pixels.jpg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/* Imagens */
+#headerImg{
+    height: 70px;
+}
+
+#content{
+    margin: 20px;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+#buyNow{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0px 0px 150px;
+}
+#buyNow2{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0px 0px 150px;
+}
+
+/* Textos pós imagens */
+#releaseText{
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 0px 0px 5px 110px;
+}
+#movieNameText{
+    color: whitesmoke;
+    margin: 0px 0px 0px 115px;
+}
+
+#releaseText2{
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 0px 0px 5px 110px;
+}
+#movieNameText2{
+    color: whitesmoke;
+    margin: 0px 0px 0px 127px;
+}
